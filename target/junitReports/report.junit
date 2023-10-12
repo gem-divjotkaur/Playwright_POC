@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="151.171" tests="12" skipped="0" failures="0" errors="0">
+<testcase classname="Playwright Alerts" name="Alerts in Playwright" time="16.954">
+<system-out><![CDATA[
+Given User handles Simple Alert.............................................passed
+And User handles Confirmation Alert.........................................passed
+And User handles Prompt Alert...............................................passed
+And User handles Sweet Alert................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Http Authentication" name="Http Authentication in Playwright - Example #1.1" time="9.102">
+<system-out><![CDATA[
+Given User launches site by providing "admin" and "admin"...................passed
+When User gets the data from the Authentication page........................passed
+Then User closes page.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Browser Context" name="Handle Browser Context in Playwright - Example #1.1" time="21.454">
+<system-out><![CDATA[
+Given User launch the browser...............................................passed
+When User searches for "shoes" in Amazon....................................passed
+And User searches for "shoes" in Myntra.....................................passed
+Then User closes the browser................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Playwright Dropdowns" name="Handle dropdowns in Playwright" time="17.456">
+<system-out><![CDATA[
+Given User select "Orange" from "fruits"....................................passed
+And User selects "The Avengers" and "Batman" from the "heroes" dropdown.....passed
+And User count all the values from "language" dropdown and print last value.passed
+And User print all the values from "country" dropdown.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Launch Browser in Playwright tool" name="Launch browser using Chromium" time="6.817">
+<system-out><![CDATA[
+Given User launch browser using Chromium....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Launch Browser in Playwright tool" name="Launch browser using Firefox" time="11.36">
+<system-out><![CDATA[
+Given User launch browser using Firefox.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Launch Browser in Playwright tool" name="Launch browser using Webkit" time="8.449">
+<system-out><![CDATA[
+Given User launch browser using Webkit......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Launch Browser in Playwright tool" name="Launch browser using Chrome" time="6.484">
+<system-out><![CDATA[
+Given User launch browser using Chrome......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Launch Browser in Playwright tool" name="Launch browser using Ms-Edge" time="7.234">
+<system-out><![CDATA[
+Given User launch browser using ms-edge.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Playwright methods" name="Type method in Playwright" time="15.494">
+<system-out><![CDATA[
+Given User performs type method in Playwright...............................passed
+And User performs fill method in Playwright.................................passed
+And User performs press method in Playwright................................passed
+And User clears the text....................................................passed
+Then User check if text is disabled.........................................passed
+And User gets the text......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Record Video" name="User record video using Playwright tool - Example #1.1" time="24.72">
+<system-out><![CDATA[
+Given User open Facebook....................................................passed
+When User enters Firstname as "abc".........................................passed
+And User enters Surname as "xyz"............................................passed
+And User enters "abc@gmail.com".............................................passed
+And User enters the "abc@123"...............................................passed
+And User selects the birth date.............................................passed
+And User selects the gender.................................................passed
+Then User signup and close the browser......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trace Viewer" name="Trace Viewer in Playwright - Example #1.1" time="5.365">
+<system-out><![CDATA[
+Given User open Facebook app................................................passed
+When User enter the firstname "abc".........................................passed
+And User enter the surname "xyz"............................................passed
+And User enter email as "abc@gmail.com".....................................passed
+And User enter password as "abc@123"........................................passed
+And User select the birth date of user......................................passed
+And User select the gender of user..........................................passed
+Then User closes the Facebook...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
