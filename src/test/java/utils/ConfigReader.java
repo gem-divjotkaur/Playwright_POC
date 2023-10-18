@@ -19,6 +19,13 @@ public class ConfigReader {
     public static String AuthenticationUrl;
     public static String MyntraUrl;
     public static String Facebook;
+    public static String bookCart;
+    public static String locatorsUrl;
+    public static String frameUrl;
+    public static String downloadFiles;
+    public static String uploadFile;
+    public static String maskScreenshot;
+    public static String windowHandleUrl;
     public static Properties properties = new Properties();
     public static void getProperties(){
         try{
@@ -32,6 +39,13 @@ public class ConfigReader {
             AuthenticationUrl= properties.getProperty("AuthenticationUrl");
             MyntraUrl  = properties.getProperty("MyntraUrl");
             Facebook = properties.getProperty("Facebook");
+            bookCart = properties.getProperty("bookCart");
+            locatorsUrl = properties.getProperty("locatorsUrl");
+            frameUrl = properties.getProperty("frameUrl");
+            downloadFiles = properties.getProperty("downloadFiles");
+            uploadFile = properties.getProperty("uploadFile");
+            maskScreenshot = properties.getProperty("maskScreenshot");
+            windowHandleUrl = properties.getProperty("windowHandleUrl");
         }
         catch(Exception e){
             e.printStackTrace();
